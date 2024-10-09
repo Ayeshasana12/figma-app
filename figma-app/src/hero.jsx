@@ -3,7 +3,7 @@ import BIKE from "../../figma-app/src/assets/bike.png";
 
 function Hero() {
   return (
-    <div className="container my-5">
+    <div className="container my-2">
       <div className="row">
         <div className="col-md-7 col-xs-12 my-4 d-flex justify-content-center flex-column align-items-center">
           <div className="">
@@ -19,7 +19,7 @@ function Hero() {
           </div>
         </div>
         <div className="col-md-5 col-xs-12 text-center">
-          <img className="img-fluid" src={BIKE} alt="logo" />
+          <img className=" h-75 img-fluid" src={BIKE} alt="logo" />
         </div>
       </div>
     </div>
